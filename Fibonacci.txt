@@ -1,0 +1,16 @@
+package week1.day1;
+
+public class FibonacciSeries {
+	public static void main(String[] args) {
+		int FirstNum = 0, SecondNum = 1;
+		System.out.println(FirstNum);
+		System.out.println(SecondNum);
+		for (int i=0; i<8; i++) {
+			int Sum = FirstNum + SecondNum;
+			FirstNum = SecondNum;
+			SecondNum = Sum;
+			System.out.println(Sum);
+		}
+	}
+
+}
